@@ -1,25 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+const { default: DownloadSection } = require('./components/download-section')
+const {
+    default: FoodBloggerSection,
+} = require('./components/food-blogger-section')
+const { default: Footer } = require('./components/footer')
+const { default: LandingSection } = require('./components/landing')
+const { default: SamenPlantSection } = require('./components/samen-plant')
+const { default: SectionOne } = require('./components/section-1')
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <div>
+            <LandingSection />
+            <SectionOne />
+            <SamenPlantSection />
+            <DownloadSection />
+            <FoodBloggerSection />
+            <Footer />
+        </div>
+    )
 }
 
-export default App;
+export default App

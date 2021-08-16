@@ -1,0 +1,43 @@
+import GooglePlayIcon from '../../assets/GooglePlay.png'
+import AppStoreIcon from '../../assets/AppStore.png'
+import CharactorIcon from '../../assets/charactor.png'
+import SpeechBubble from '../../assets/speech-bubble.png'
+
+export default function DownloadPopup() {
+    return (
+        <div className="absolute shadow-popup -bottom-14 right-40 bg-white py-5 px-8 rounded-xl">
+            <div className="flex flex-row ">
+                <div>
+                    <p className="font-jost text-base text-black">
+                        Swipe, cook & feel good!
+                    </p>
+                    <p className="font-jost font-semibold text-2xl text-black">
+                        Here you go! Download {<br />}gratis kookinspiratie.
+                    </p>
+                    <div className="flex flex-row my-2">
+                        <img
+                            src={GooglePlayIcon}
+                            alt="google-play-icon"
+                            className="mr-3"
+                        />
+                        <img src={AppStoreIcon} alt="app-store-icon" />
+                    </div>
+                </div>
+                <img src={CharactorIcon} alt="charactor-icon" />
+                <img
+                    src={SpeechBubble}
+                    alt="speech-bubble"
+                    className="absolute -right-10 -top-10"
+                />
+                <div className="absolute -right-4 -top-6">
+                    <div className="relative transform rotate-12">
+                        <p className="font-jost text-xs font-semibold text-black wr ">
+                            Brocoolie!{<br />} Gerechten{<br />} met{<br />}{' '}
+                            bloemkool!
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    )
+}
