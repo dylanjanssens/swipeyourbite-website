@@ -5,7 +5,7 @@ import SpeechBubble from '../../assets/speech-bubble.webp'
 
 export default function DownloadPopup() {
     return (
-        <div className="invisible md:visible absolute shadow-popup -bottom-14 right-40 bg-white py-5 px-8 rounded-xl ">
+        <div className="invisible md:visible absolute shadow-popup -bottom-20 right-36 bg-white py-5 px-8 rounded-xl ">
             <div className="flex flex-row ">
                 <div>
                     <p className="font-jost text-base text-black">
