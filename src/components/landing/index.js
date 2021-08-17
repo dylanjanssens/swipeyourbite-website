@@ -1,8 +1,14 @@
 import Popup from './download-popup'
 import LandingImage from '../../assets/landing-page-cover.webp'
 import Logo from '../../assets/logo.webp'
+import DownArrowIcon from '../../assets/down-arrow.webp'
 
 export default function LandingSection() {
+    const onClick = () => {
+        document.getElementById('download-section').scrollIntoView({
+            behavior: 'smooth',
+        })
+    }
     return (
         <div
             className="w-full h-screen bg-cover bg-center"
@@ -36,9 +42,20 @@ export default function LandingSection() {
                         </span>
                     </p>
                 </div>
-                <div className="mb-5 sm:mb-0 mt-7 bg-button rounded-full py-4 px-6  font-jost font-semibold text-xl text-white">
+                <button
+                    className="mb-5 sm:mb-0 mt-7 bg-button
+                     rounded-full py-4 px-6  font-jost 
+                     font-semibold text-xl text-white 
+                     flex flex-row justify-between items-center outline-none focus:ring-1"
+                    onClick={onClick}
+                >
                     Download de app
-                </div>
+                    <img
+                        className="ml-10"
+                        alt="down-arrow-icon"
+                        src={DownArrowIcon}
+                    />
+                </button>
             </div>
             <Popup />
         </div>

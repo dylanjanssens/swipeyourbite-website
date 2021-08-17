@@ -5,7 +5,7 @@ import SpeechBubble from '../../assets/speech-bubble.webp'
 
 export default function DownloadPopup() {
     return (
-        <div className="invisible md:visible absolute shadow-popup -bottom-14 right-40 bg-white py-5 px-8 rounded-xl">
+        <div className="invisible md:visible absolute shadow-popup -bottom-14 right-40 bg-white py-5 px-8 rounded-xl ">
             <div className="flex flex-row ">
                 <div>
                     <p className="font-jost text-base text-black">
@@ -15,12 +15,24 @@ export default function DownloadPopup() {
                         Here you go! Download {<br />}gratis kookinspiratie.
                     </p>
                     <div className="flex flex-row my-2">
-                        <img
-                            src={GooglePlayIcon}
-                            alt="google-play-icon"
-                            className="mr-3"
-                        />
-                        <img src={AppStoreIcon} alt="app-store-icon" />
+                        <a
+                            target="_blank"
+                            rel="noreferrer"
+                            href="https://play.google.com/store/apps/details?id=com.SwipeYourBite.application"
+                        >
+                            <img
+                                src={GooglePlayIcon}
+                                alt="google-play-icon"
+                                className="mr-3"
+                            />
+                        </a>
+                        <a
+                            target="_blank"
+                            rel="noreferrer"
+                            href="https://apps.apple.com/nl/app/swipeyourbite/id1532039668"
+                        >
+                            <img src={AppStoreIcon} alt="app-store-icon" />
+                        </a>
                     </div>
                 </div>
                 <img src={CharactorIcon} alt="charactor-icon" />

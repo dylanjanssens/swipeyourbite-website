@@ -51,12 +51,12 @@ export default function SectionOne() {
                                 alt="card-1"
                             />
                             <h2 className="font-jost font-semibold text-2xl text-center mb-2">
-                                Alle recepten op één plek
+                                Ontdek nieuwe gerechten
                             </h2>
                             <p className="font-jost text-lg text-center">
-                                We werken samen met nieuwe en bekende foodblogs.
-                                Samen creëren we één groot platform vol
-                                kookinspiratie.
+                                Verras je smaakpapillen eens met een nieuw
+                                recept. Daar hoef je alleen maar even kort voor
+                                te swipen. Simpel.
                             </p>
                         </div>
                     </div>
@@ -68,12 +68,12 @@ export default function SectionOne() {
                                 alt="card-1"
                             />
                             <h2 className="font-jost font-semibold text-2xl text-center mb-2">
-                                Alle recepten op één plek
+                                1, 2, 3, aan tafel!
                             </h2>
                             <p className="font-jost text-lg text-center">
-                                We werken samen met nieuwe en bekende foodblogs.
-                                Samen creëren we één groot platform vol
-                                kookinspiratie.
+                                Uitdagingen in de keuken? No thanks. Liever
+                                simpel, snel en supersmakelijk. Minder koken,
+                                meer tafelen!
                             </p>
                         </div>
                     </div>

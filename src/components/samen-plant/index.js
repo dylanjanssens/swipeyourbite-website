@@ -12,7 +12,7 @@ export default function SamenPlantSection() {
                     />
                 </div>
                 <div className="flex flex-col flex-wrap justify-center items-center  lg:py-6 -mb-10 lg:w-1/2 lg:pl-12 lg:text-left text-center">
-                    <h2 className="font-jost font-semibold text-5xl text-black mb-6 ">
+                    <h2 className="font-jost font-semibold text-4.5xl text-black mb-6 ">
                         Samen (plant)aardig zijn voor de wereld
                     </h2>
                     <p className="font-jost text-lg text-black mb-2">

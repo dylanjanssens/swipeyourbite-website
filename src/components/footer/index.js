@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import Logo from '../../assets/logo.webp'
 import GooglePlayIcon from '../../assets/GooglePlay.webp'
 import AppStoreIcon from '../../assets/AppStore.webp'
@@ -10,7 +11,7 @@ import InstagramIcon from '../../assets/instagram.webp'
 export default function Footer() {
     return (
         <footer className="bg-footer">
-            <div className="container pt-12 pb-10 m-auto flex  md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
+            <div className="container pt-12 mx-auto pb-10 px-8 sm:px-0 flex items-start md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
                 <div className="flex-1">
                     <img src={Logo} alt="logo" className="mx-auto sm:mx-0" />
                     <p className="max-w-sm mt-2 font-jost text-lg text-black text-center sm:text-left">
@@ -22,24 +23,38 @@ export default function Footer() {
                         <p className="font-jost font-bold text-base mt-3 mr-3">
                             Volg je ons al?
                         </p>
-                        <img
-                            src={LinkedInIcon}
-                            alt="linkedin-icon"
-                            className="object-contain mr-2"
-                        />
-                        <img
-                            src={FacebookIcon}
-                            alt="facebook-icon"
-                            className="object-contain mr-2"
-                        />
-                        <img
-                            src={InstagramIcon}
-                            alt="instagram-icon"
-                            className="object-contain mr-2"
-                        />
+                        <a target="_blank" rel="noreferrer" href="#">
+                            <img
+                                src={LinkedInIcon}
+                                alt="linkedin-icon"
+                                className="object-contain mr-2"
+                            />
+                        </a>
+                        <a
+                            target="_blank"
+                            rel="noreferrer"
+                            href="https://www.facebook.com/pages/category/Food---Beverage/Swipeyourbite-100910614905544/"
+                        >
+                            <img
+                                src={FacebookIcon}
+                                alt="facebook-icon"
+                                className="object-contain mr-2"
+                            />
+                        </a>
+                        <a
+                            target="_blank"
+                            rel="noreferrer"
+                            href="https://www.instagram.com/swipeyourbite/"
+                        >
+                            <img
+                                src={InstagramIcon}
+                                alt="instagram-icon"
+                                className="object-contain mr-2"
+                            />
+                        </a>
                     </div>
                 </div>
-                <div className="flex-1 mx-auto mb-4">
+                <div className="flex-1  mb-4">
                     <h2 className="font-jost font-semibold text-xl mb-5">
                         Contact
                     </h2>
@@ -60,17 +75,29 @@ export default function Footer() {
                         <p>06-12 34 56 78</p>
                     </div>
                 </div>
-                <div className="flex-1 mx-auto">
+                <div className="flex-1">
                     <h2 className="font-jost font-semibold text-xl">
                         Download SwipeYourBite op
                     </h2>
                     <div className="flex flex-row flex-wrap justify-start items-center mt-4">
-                        <img
-                            className="mr-2"
-                            src={GooglePlayIcon}
-                            alt="google-play-icon"
-                        />
-                        <img src={AppStoreIcon} alt="app-store-icon" />
+                        <a
+                            target="_blank"
+                            rel="noreferrer"
+                            href="https://play.google.com/store/apps/details?id=com.SwipeYourBite.application"
+                        >
+                            <img
+                                className="mr-2"
+                                src={GooglePlayIcon}
+                                alt="google-play-icon"
+                            />
+                        </a>
+                        <a
+                            target="_blank"
+                            rel="noreferrer"
+                            href="https://apps.apple.com/nl/app/swipeyourbite/id1532039668"
+                        >
+                            <img src={AppStoreIcon} alt="app-store-icon" />
+                        </a>
                     </div>
                 </div>
             </div>
