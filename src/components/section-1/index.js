@@ -1,6 +1,6 @@
-import CardOneImage from '../../assets/card-1.png'
-import CardTwoImage from '../../assets/card-2.png'
-import CardThreeImage from '../../assets/card-3.png'
+import CardOneImage from '../../assets/card-1.webp'
+import CardTwoImage from '../../assets/card-2.webp'
+import CardThreeImage from '../../assets/card-3.webp'
 
 export default function SectionOne() {
     return (

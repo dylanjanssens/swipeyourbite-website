@@ -1,25 +1,45 @@
-import DownloadSectionMobile from '../../assets/download-section-mobile.png'
+import DownloadSectionMobile from '../../assets/download-section-mobile.webp'
+import GooglePlayIcon from '../../assets/GooglePlay.webp'
+import AppStoreIcon from '../../assets/AppStore.webp'
+import MashroomImage from '../../assets/download-section-mashroom.webp'
 
 export default function DownloadSection() {
     return (
-        <section className="md:max-w-6xl m-auto">
+        <section className="m-auto mb-32">
             <div className="container px-5 py-5 mx-auto flex flex-wrap">
-                <div className="flex flex-col flex-wrap justify-center items-center  lg:py-6 -mb-10 lg:w-1/2 lg:pl-12 lg:text-left text-center">
-                    <h2 className="font-jost font-semibold text-5xl text-black mb-6 ">
-                        Samen (plant)aardig zijn voor de wereld
-                    </h2>
+                <div className="flex flex-col flex-wrap justify-center items-center lg:py-6 -mb-10 lg:w-1/2 lg:pl-12 lg:text-left text-center">
+                    <div className="flex flex-row w-full items-center">
+                        <h2 className="font-jost font-semibold text-4.5xl text-black mb-6 text-center sm:text-left">
+                            Download{<br />} de SwipeYourBite app
+                        </h2>
+                        <img
+                            src={MashroomImage}
+                            width="100%"
+                            height="100%"
+                            alt="mashroom-icon"
+                            className="object-contain object-center w-max ml-2 -mt-14 hidden sm:block"
+                        />
+                    </div>
                     <p className="font-jost text-lg text-black mb-2">
-                        Een groen voedingspatroon voelt goed. Je draagt je
-                        steentje bij aan een beter milieu, dieren zijn je
-                        dankbaar en je voelt je lekker fit in je lijf. Hoeveel
-                        invloed jouw vega keuzes hebben? Met een duurzamer
-                        voedingspatroon verlaag je de milieu-impact van je
-                        voedsel uiteindelijk tot wel 50 procent.
+                        Er ligt verse kookinspiratie op je te wachten! Download,
+                        swipe en vind een lekkere match. Wij verzekeren je dat
+                        je een recept vindt waar je hart sneller van gaat
+                        kloppen. Smakelijk, kort van stof en makkelijk in de
+                        omgang. De ideale partner aan tafel.
                     </p>
-                    <p className="font-jost text-lg text-black">
-                        Dat begint al bij een boterham met hummus in plaats van
-                        kipfilet. Of een vegetarisch recept van Swipe Your Bite.
-                    </p>
+                    <div className="shadow-card p-5 self-start mt-5 mb-14">
+                        <span className="block font-jost font-semibold text-xl mb-3">
+                            Raak geinspireerd
+                        </span>
+                        <div className="flex flex-row">
+                            <img
+                                src={GooglePlayIcon}
+                                alt="google-play-icon"
+                                className="mr-3"
+                            />
+                            <img src={AppStoreIcon} alt="app-store-icon" />
+                        </div>
+                    </div>
                 </div>
                 <div className="lg:w-1/2 w-full mb-10 lg:mb-0 rounded-lg overflow-hidden">
                     <img

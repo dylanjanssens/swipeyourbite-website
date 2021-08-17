@@ -1,11 +1,11 @@
 import Popup from './download-popup'
-import LandingImage from '../../assets/landing-page-cover.png'
-import Logo from '../../assets/logo.png'
+import LandingImage from '../../assets/landing-page-cover.webp'
+import Logo from '../../assets/logo.webp'
 
 export default function LandingSection() {
     return (
         <div
-            className="bg-cover bg-center w-screen h-screen relative"
+            className="w-full h-screen bg-cover bg-center"
             style={{ backgroundImage: `url(${LandingImage})` }}
         >
             <img src={Logo} alt="logo" className="mx-auto pt-2 sm:pt-14" />

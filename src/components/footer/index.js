@@ -1,11 +1,11 @@
-import Logo from '../../assets/logo.png'
-import GooglePlayIcon from '../../assets/GooglePlay.png'
-import AppStoreIcon from '../../assets/AppStore.png'
-import Phone from '../../assets/phone.png'
-import Email from '../../assets/email.png'
-import LinkedInIcon from '../../assets/linkedin.png'
-import FacebookIcon from '../../assets/facebook.png'
-import InstagramIcon from '../../assets/instagram.png'
+import Logo from '../../assets/logo.webp'
+import GooglePlayIcon from '../../assets/GooglePlay.webp'
+import AppStoreIcon from '../../assets/AppStore.webp'
+import Phone from '../../assets/phone.webp'
+import Email from '../../assets/email.webp'
+import LinkedInIcon from '../../assets/linkedin.webp'
+import FacebookIcon from '../../assets/facebook.webp'
+import InstagramIcon from '../../assets/instagram.webp'
 
 export default function Footer() {
     return (

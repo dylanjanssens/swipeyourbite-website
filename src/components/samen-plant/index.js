@@ -1,8 +1,8 @@
-import SamenPlantImage from '../../assets/samen-plant.png'
+import SamenPlantImage from '../../assets/samen-plant.webp'
 
 export default function SamenPlantSection() {
     return (
-        <section className="md:max-w-6xl m-auto">
+        <section className="m-auto mb-32">
             <div className="container px-5 py-5 mx-auto flex flex-wrap">
                 <div className="lg:w-1/2 w-full mb-10 lg:mb-0 rounded-lg overflow-hidden">
                     <img

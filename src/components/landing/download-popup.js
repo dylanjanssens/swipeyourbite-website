@@ -1,11 +1,11 @@
-import GooglePlayIcon from '../../assets/GooglePlay.png'
-import AppStoreIcon from '../../assets/AppStore.png'
-import CharactorIcon from '../../assets/charactor.png'
-import SpeechBubble from '../../assets/speech-bubble.png'
+import GooglePlayIcon from '../../assets/GooglePlay.webp'
+import AppStoreIcon from '../../assets/AppStore.webp'
+import CharactorIcon from '../../assets/charactor.webp'
+import SpeechBubble from '../../assets/speech-bubble.webp'
 
 export default function DownloadPopup() {
     return (
-        <div className="absolute shadow-popup -bottom-14 right-40 bg-white py-5 px-8 rounded-xl">
+        <div className="invisible md:visible absolute shadow-popup -bottom-14 right-40 bg-white py-5 px-8 rounded-xl">
             <div className="flex flex-row ">
                 <div>
                     <p className="font-jost text-base text-black">
