@@ -7,8 +7,12 @@ export default function NameField() {
             className="mb-4 w-4/5 mx-auto sm:mx-0"
             name="food-blogger-contact-form"
             method="post"
-            data-netlify="true"
         >
+            <input
+                type="hidden"
+                name="form-name"
+                value="food-blogger-contact-form"
+            />
             <div className="flex flex-col mb-4">
                 <label className="font-jost text-lg text-left" htmlFor="name">
                     Je voor & achternaam
@@ -53,11 +57,6 @@ export default function NameField() {
                     id="url"
                 />
             </div>
-            <input
-                type="hidden"
-                name="form-name"
-                value="food-blogger-contact-form"
-            />
 
             <button
                 className="w-full mb-5 sm:mb-0 mt-10 bg-button
