@@ -11,6 +11,7 @@ export default function LandingSection() {
     }
     return (
         <div
+            id="landing-section"
             className="w-full h-screen bg-cover bg-center"
             style={{ backgroundImage: `url(${LandingImage})` }}
         >
