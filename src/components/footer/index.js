@@ -9,11 +9,21 @@ import FacebookIcon from '../../assets/facebook.webp'
 import InstagramIcon from '../../assets/instagram.webp'
 
 export default function Footer() {
+    const onClick = () => {
+        document.getElementById('landing-section').scrollIntoView({
+            behavior: 'smooth',
+        })
+    }
     return (
         <footer className="bg-footer">
             <div className="container pt-12 mx-auto pb-10 px-8 sm:px-0 flex items-start md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
                 <div className="flex-1">
-                    <img src={Logo} alt="logo" className="mx-auto sm:mx-0" />
+                    <img
+                        src={Logo}
+                        alt="logo"
+                        className="mx-auto sm:mx-0"
+                        onClick={onClick}
+                    />
                     <p className="max-w-sm mt-2 font-jost text-lg text-black text-center sm:text-left">
                         Swipe Your Bite bundelt de lekkerste vega recepten van
                         het web in één app. Swipe en creëer je persoonlijke
@@ -64,7 +74,9 @@ export default function Footer() {
                             alt="email-icon"
                             className="object-contain mr-2"
                         />
-                        <p>info@swipeyourbite.nl</p>
+                        <a href="mailto:info@swipeyourbite.nl">
+                            <p>info@swipeyourbite.nl</p>
+                        </a>
                     </div>
                     <div className="flex flex-row">
                         <img

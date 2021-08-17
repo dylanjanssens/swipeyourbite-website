@@ -35,7 +35,11 @@ export default function DownloadPopup() {
                         </a>
                     </div>
                 </div>
-                <img src={CharactorIcon} alt="charactor-icon" />
+                <img
+                    src={CharactorIcon}
+                    alt="charactor-icon"
+                    className="h-32 w-auto self-center"
+                />
                 <img
                     src={SpeechBubble}
                     alt="speech-bubble"
