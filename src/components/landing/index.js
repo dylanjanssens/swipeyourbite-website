@@ -14,7 +14,11 @@ export default function LandingSection() {
             className="w-full h-screen bg-cover bg-center"
             style={{ backgroundImage: `url(${LandingImage})` }}
         >
-            <img src={Logo} alt="logo" className="mx-auto pt-2 sm:pt-14" />
+            <img
+                src={Logo}
+                alt="logo"
+                className="mx-auto pt-2 sm:pt-14 cursor-pointer"
+            />
             <div className="flex flex-col justify-center items-center h-screen">
                 <h1 className="font-jost text-5xl sm:text-6xl text-black text-center font-semibold leading-extra-loose">
                     Swipe voor een{' '}

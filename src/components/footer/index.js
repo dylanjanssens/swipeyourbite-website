@@ -64,7 +64,9 @@ export default function Footer() {
                             alt="email-icon"
                             className="object-contain mr-2"
                         />
-                        <p>info@swipeyourbite.nl</p>
+                        <a href="mailto:info@swipeyourbite.nl">
+                            <p>info@swipeyourbite.nl</p>
+                        </a>
                     </div>
                     <div className="flex flex-row">
                         <img

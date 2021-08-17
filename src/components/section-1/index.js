@@ -26,7 +26,7 @@ export default function SectionOne() {
                     Jouw snelle vega receptenmachine
                 </h1>
                 <div className="flex flex-wrap -m-4">
-                    <div className="xl:w-1/3 md:w-1/2 p-4">
+                    <div className="lg:w-1/3 md:w-1/2 p-4">
                         <div className="shadow-card p-6 rounded-lg">
                             <img
                                 className="md:w-64 m-auto mb-5"
@@ -43,12 +43,12 @@ export default function SectionOne() {
                             </p>
                         </div>
                     </div>
-                    <div className="xl:w-1/3 md:w-1/2 p-4">
+                    <div className="lg:w-1/3 md:w-1/2 p-4">
                         <div className="shadow-card p-6 rounded-lg">
                             <img
                                 className="md:w-64 m-auto mb-5"
                                 src={CardTwoImage}
-                                alt="card-1"
+                                alt="card-2"
                             />
                             <h2 className="font-jost font-semibold text-2xl text-center mb-2">
                                 Ontdek nieuwe gerechten
@@ -60,17 +60,17 @@ export default function SectionOne() {
                             </p>
                         </div>
                     </div>
-                    <div className="xl:w-1/3 md:w-1/2 p-4">
+                    <div className="lg:w-1/3 md:w-1/2 p-4  md:mx-auto">
                         <div className="shadow-card p-6 rounded-lg">
                             <img
                                 className="md:w-64 m-auto mb-5"
                                 src={CardThreeImage}
-                                alt="card-1"
+                                alt="card-3"
                             />
                             <h2 className="font-jost font-semibold text-2xl text-center mb-2">
                                 1, 2, 3, aan tafel!
                             </h2>
-                            <p className="font-jost text-lg text-center">
+                            <p className="font-jost text-lg text-center lg:pb-8 xl:pb-0">
                                 Uitdagingen in de keuken? No thanks. Liever
                                 simpel, snel en supersmakelijk. Minder koken,
                                 meer tafelen!
