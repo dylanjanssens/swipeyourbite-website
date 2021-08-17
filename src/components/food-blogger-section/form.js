@@ -49,10 +49,16 @@ export default function NameField() {
                 <input
                     className="border py-3 sm:py-6 px-5 rounded-full font-jost font-bold text-lg text-black mt-4 outline-none focus:ring-1"
                     type="text"
-                    name="url"
+                    name="website"
                     id="url"
                 />
             </div>
+            <input
+                type="hidden"
+                name="form-name"
+                value="food-blogger-contact-form"
+            />
+
             <button
                 className="w-full mb-5 sm:mb-0 mt-10 bg-button
                  rounded-full py-3 sm:py-6  px-5 font-jost font-semibold text-xl
