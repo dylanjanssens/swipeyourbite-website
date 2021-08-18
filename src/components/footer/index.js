@@ -108,7 +108,7 @@ export default function Footer() {
                 </div>
             </div>
             <p className="font-jost font-bold text-sm text-center pb-4">
-                © Copyright 2021. SwipeYourBite Limited. Alle rechten
+                © Copyright 2021. Swipe Your Bite. Alle rechten
                 voorbehouden. Privacy Policy & Algemene voorwaarden.
             </p>
         </footer>
