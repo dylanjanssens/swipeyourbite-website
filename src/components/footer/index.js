@@ -4,7 +4,6 @@ import GooglePlayIcon from '../../assets/GooglePlay.webp'
 import AppStoreIcon from '../../assets/AppStore.webp'
 import Phone from '../../assets/phone.webp'
 import Email from '../../assets/email.webp'
-import LinkedInIcon from '../../assets/linkedin.webp'
 import FacebookIcon from '../../assets/facebook.webp'
 import InstagramIcon from '../../assets/instagram.webp'
 
