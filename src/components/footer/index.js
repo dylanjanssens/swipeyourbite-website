@@ -76,8 +76,8 @@ export default function Footer() {
                             alt="email-icon"
                             className="object-contain mr-2"
                         />
-                        <a href="tel:06-12 34 56 78">
-                            <p>06-12 34 56 78</p>
+                        <a href="tel:06-83 56 28 69">
+                            <p>06-83 56 28 69</p>
                         </a>
                     </div>
                 </div>
