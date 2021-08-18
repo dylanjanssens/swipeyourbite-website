@@ -29,7 +29,7 @@ export default function DownloadSection() {
                     </p>
                     <div className="self-center lg:self-start shadow-card p-5 rounded-lg  mt-5 mb-14 ">
                         <span className="block font-jost font-semibold text-xl mb-3">
-                            Raak geinspireerd
+                            Raak geïnspireerd
                         </span>
                         <div className="flex flex-row">
                             <a
