@@ -21,7 +21,7 @@ export default function Footer() {
                     <img
                         src={Logo}
                         alt="logo"
-                        className="mx-auto sm:mx-0"
+                        className="mx-auto sm:mx-0 cursor-pointer"
                         onClick={onClick}
                     />
                     <p className="max-w-sm mt-2 font-jost text-lg text-black text-center sm:text-left">
@@ -33,13 +33,6 @@ export default function Footer() {
                         <p className="font-jost font-bold text-base mt-3 mr-3">
                             Volg je ons al?
                         </p>
-                        <a target="_blank" rel="noreferrer" href="#">
-                            <img
-                                src={LinkedInIcon}
-                                alt="linkedin-icon"
-                                className="object-contain mr-2"
-                            />
-                        </a>
                         <a
                             target="_blank"
                             rel="noreferrer"
@@ -84,7 +77,9 @@ export default function Footer() {
                             alt="email-icon"
                             className="object-contain mr-2"
                         />
-                        <p>06-12 34 56 78</p>
+                        <a href="tel:06-12 34 56 78">
+                            <p>06-12 34 56 78</p>
+                        </a>
                     </div>
                 </div>
                 <div className="flex-1">
