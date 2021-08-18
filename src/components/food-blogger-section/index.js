@@ -19,9 +19,8 @@ export default function FoodBloggerSection() {
                         Foodbloggers unite!
                     </h2>
                     <p className="font-jost text-lg text-black mb-2">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Ut ante metus, vestibulum vulputate velit eget, eleifend
-                        consequat lorem.
+                        Samen staan we sterker. Wij helpen jouw positieve bijdrage aan de planeet te vergroten. 
+                        Doe je mee?
                     </p>
                     <Form />
                 </div>
