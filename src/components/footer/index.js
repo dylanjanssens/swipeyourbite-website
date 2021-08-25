@@ -93,7 +93,7 @@ export default function Footer() {
                         </a>
                     </div>
                     <div className="flex flex-row items-center my-2 hover:underline">
-                        <a href="/privacy-policy" target="_blank">
+                        <a href="/privacy-policy">
                             <p className="my-auto">Privacy Policy</p>
                         </a>
                     </div>
