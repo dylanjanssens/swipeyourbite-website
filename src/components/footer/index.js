@@ -6,7 +6,7 @@ import Phone from '../../assets/phone.webp'
 import Email from '../../assets/email.webp'
 import FacebookIcon from '../../assets/facebook.webp'
 import InstagramIcon from '../../assets/instagram.webp'
-
+import { Link } from 'react-router-dom'
 export default function Footer() {
     const onClick = () => {
         document.getElementById('landing-section').scrollIntoView({
@@ -88,12 +88,12 @@ export default function Footer() {
                     </h2>
 
                     <div className="flex flex-row my-2 hover:underline">
-                        <a href="/terms-of-service" target="_blank">
+                        <Link to="/terms-of-service" target="_blank">
                             <p className="my-auto">Terms of Use</p>
-                        </a>
+                        </Link>
                     </div>
                     <div className="flex flex-row items-center my-2 hover:underline">
-                        <a href="/privacy-policy">
+                        <a href="/privacy-policy" target="_blank">
                             <p className="my-auto">Privacy Policy</p>
                         </a>
                     </div>
