@@ -14,9 +14,9 @@ export default function Footer() {
         })
     }
     return (
-        <footer className="bg-footer">
+        <footer id="footer" className="bg-footer">
             <div className="container pt-12 mx-auto pb-10 px-8 sm:px-0 flex items-start md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
-                <div className="flex-1">
+                <div className="flex-2">
                     <img
                         src={Logo}
                         alt="logo"
@@ -60,17 +60,17 @@ export default function Footer() {
                     <h2 className="font-jost font-semibold text-xl mb-5">
                         Contact
                     </h2>
-                    <div className="flex flex-row">
+                    <div className="flex flex-row items-center my-2">
                         <img
                             src={Email}
                             alt="email-icon"
                             className="object-contain mr-2"
                         />
                         <a href="mailto:info@swipeyourbite.nl">
-                            <p>info@swipeyourbite.nl</p>
+                            <p className="my-auto">info@swipeyourbite.nl</p>
                         </a>
                     </div>
-                    <div className="flex flex-row">
+                    <div className="flex flex-row my-2">
                         <img
                             src={Phone}
                             alt="email-icon"
@@ -78,6 +78,28 @@ export default function Footer() {
                         />
                         <a href="tel:06-83 56 28 69">
                             <p>06-83 56 28 69</p>
+                        </a>
+                        
+                    </div>
+                </div>
+                <div className="flex-1   mb-4">
+                    <h2 className="font-jost font-semibold text-xl mb-5">
+                        Links
+                    </h2>
+
+                    <div className="flex flex-row my-2 hover:underline">
+                        <a href="/terms-of-service" target="_blank">
+                            <p className="my-auto">Terms of Use</p>
+                        </a>
+                    </div>
+                    <div className="flex flex-row items-center my-2 hover:underline">
+                        <a href="/privacy-policy" target="_blank">
+                            <p className="my-auto">Privacy Policy</p>
+                        </a>
+                    </div>
+                    <div className="flex flex-row my-2 hover:underline">
+                        <a href="/cookie-policy" target="_blank">
+                            <p className="my-auto">Cookies Policy</p>
                         </a>
                     </div>
                 </div>
