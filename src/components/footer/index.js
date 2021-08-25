@@ -88,9 +88,9 @@ export default function Footer() {
                     </h2>
 
                     <div className="flex flex-row my-2 hover:underline">
-                        <Link to="/terms-of-service" target="_blank">
+                        <a href="/terms-of-service" target="_blank">
                             <p className="my-auto">Terms of Use</p>
-                        </Link>
+                        </a>
                     </div>
                     <div className="flex flex-row items-center my-2 hover:underline">
                         <a href="/privacy-policy" target="_blank">
