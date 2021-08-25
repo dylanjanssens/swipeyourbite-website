@@ -1,4 +1,3 @@
-import Popup from './download-popup'
 import LandingImage from '../../assets/landing-page-cover.webp'
 import Logo from '../../assets/logo.webp'
 import DownArrowIcon from '../../assets/down-arrow.webp'
@@ -12,7 +11,7 @@ export default function LandingSection() {
     return (
         <div
             id="landing-section"
-            className="w-full h-screen bg-cover bg-center"
+            className="w-full h-full min-h-screen bg-cover bg-center"
             style={{ backgroundImage: `url(${LandingImage})` }}
         >
             <img
@@ -62,7 +61,6 @@ export default function LandingSection() {
                     />
                 </button>
             </div>
-            <Popup />
         </div>
     )
 }
