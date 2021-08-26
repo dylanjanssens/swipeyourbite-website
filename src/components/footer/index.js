@@ -79,7 +79,6 @@ export default function Footer() {
                         <a href="tel:06-83 56 28 69">
                             <p>06-83 56 28 69</p>
                         </a>
-                        
                     </div>
                 </div>
                 <div className="flex-1   mb-4">
@@ -129,9 +128,9 @@ export default function Footer() {
                     </div>
                 </div>
             </div>
-            <p className="font-jost font-bold text-sm text-center pb-4">
-                © Copyright 2021. Swipe Your Bite. Alle rechten
-                voorbehouden. Privacy Policy & Algemene voorwaarden.
+            <p className="font-jost font-bold text-sm text-center pb-4 mb-0">
+                © Copyright 2021. Swipe Your Bite. Alle rechten voorbehouden.
+                Privacy Policy & Algemene voorwaarden.
             </p>
         </footer>
     )
