@@ -30,7 +30,7 @@ export default function DownloadPopup() {
             <div
                 className={`${
                     bottomReached ? 'md:invisible' : 'md:visible'
-                } fixed z-50 bottom-5 right-20 max-w-max invisible md:visible shadow-popup  bg-white py-2 px-4 rounded-xl`}
+                } fixed z-50 bottom-5 right-20 max-w-max invisible md:visible shadow-popup  bg-white py-5 px-4 rounded-xl`}
             >
                 <div className="flex flex-row ">
                     <div>
@@ -88,15 +88,12 @@ export default function DownloadPopup() {
             >
                 <div className="flex flex-col ">
                     <div>
-                        <p className="font-jost font-bold text-sm text-black">
+                        <p className="font-jost font-bold text-sm text-black mb-1">
                             Swipe, cook & feel good!
-                        </p>
-                        <p className="font-jost text-sm text-black">
-                            Download {<br />}gratis kookinspiratie.
                         </p>
                     </div>
                     <div className="flex flex-row">
-                        <div className="flex flex-col my-2">
+                        <div className="flex flex-col mx-auto">
                             {isAndroid && (
                                 <a
                                     target="_blank"
@@ -106,7 +103,7 @@ export default function DownloadPopup() {
                                     <img
                                         src={GooglePlayIcon}
                                         alt="google-play-icon"
-                                        className="mr-3 w-32 h-auto object-cover"
+                                        className=""
                                     />
                                 </a>
                             )}
@@ -119,7 +116,7 @@ export default function DownloadPopup() {
                                     <img
                                         src={AppStoreIcon}
                                         alt="app-store-icon"
-                                        className="w-32 h-auto object-cover"
+                                        className=""
                                     />
                                 </a>
                             )}
