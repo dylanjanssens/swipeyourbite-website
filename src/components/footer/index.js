@@ -6,7 +6,7 @@ import Phone from '../../assets/phone.webp'
 import Email from '../../assets/email.webp'
 import FacebookIcon from '../../assets/facebook.webp'
 import InstagramIcon from '../../assets/instagram.webp'
-import { Link } from 'react-router-dom'
+
 export default function Footer() {
     const onClick = () => {
         document.getElementById('landing-section').scrollIntoView({
